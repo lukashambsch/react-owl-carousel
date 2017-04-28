@@ -34,6 +34,9 @@ var config = {
 				amd: 'react-dom'
 			}
 		},
+    {
+      'jquery': 'jQuery'
+    }
 	],
 	plugins: [
 		new webpack.optimize.OccurenceOrderPlugin(),
